@@ -14,6 +14,7 @@ Same simple.
 1. Get the contents from this repo.
 2. Setup config
 3. Setup crontab
+4. Sleep calm!
 
 Configuration
 -------------
