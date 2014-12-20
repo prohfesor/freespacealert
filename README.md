@@ -10,6 +10,7 @@ This script is pretty simple - just send an email if your server free space is c
 Installation
 ------------
 Same simple.
+
 1. Get the contents from this repo.
 2. Setup config
 3. Setup crontab
