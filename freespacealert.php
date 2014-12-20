@@ -1,5 +1,7 @@
 <?php
 
+echo "\n FREE SPACE CHECKER SCRIPT \n";
+
 require_once('config.php');
 
 $aFreeSpace = array();
@@ -43,6 +45,10 @@ $stat
 Message was generated automatically by server.
 Thank you.
 ";
+
+echo "\nPath   \t\tTotal Mb \t\tFree Mb \t\t%";
+echo "\n-------\t\t---------\t\t--------\t\t-----";
+echo "\n$stat";
 
 if($critical){
 	$to = implode(", ", $aEmails);
