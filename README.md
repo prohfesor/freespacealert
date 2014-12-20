@@ -32,3 +32,8 @@ Add a line to crontab:
 #every half an hour
 0 */2 * * * php /home/user/freespacealert/freespacealert.php
 ```
+Do a test run:
+```
+php /home/user/freespacealert/freespacealert.php
+```
+Now it's all fine.
