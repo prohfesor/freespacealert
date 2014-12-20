@@ -30,5 +30,5 @@ Add a line to crontab:
 0 * * * * php /home/user/freespacealert/freespacealert.php
 #-or-
 #every half an hour
-*/2 * * * * php /home/user/freespacealert/freespacealert.php
+0 */2 * * * php /home/user/freespacealert/freespacealert.php
 ```
