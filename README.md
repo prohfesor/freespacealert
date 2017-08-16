@@ -30,7 +30,7 @@ Add a line to crontab:
 0 * * * * php /home/user/freespacealert/freespacealert.php
 #-or-
 #every half an hour
-0 */2 * * * php /home/user/freespacealert/freespacealert.php
+0,30 * * * * php /home/user/freespacealert/freespacealert.php
 ```
 Do a test run:
 ```
